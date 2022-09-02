@@ -1,0 +1,23 @@
+@import '../base/_common';
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+    h4{
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+    .icons{
+        .far{
+            color: $primary_color;
+        }
+        .fab{
+            color: $primary_color;
+            margin: 0 13px;
+            cursor: pointer;
+            padding: 18px 0;
+        }
+    }
+  }
+  
