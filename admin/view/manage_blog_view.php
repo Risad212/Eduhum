@@ -1,0 +1,1 @@
+<h2>manege blog view</h2>

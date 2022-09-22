@@ -6,7 +6,16 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        
+                      <?php 
+                        if(isset($view)){
+                            if($view == 'dashboard'){
+                                include('view/dash_view.php');
+                            }
+                            else if($view == 'manege_blog'){
+                                include('view/manage_blog_view.php');
+                            }
+                         }
+                      ?>
                     </div>
                 </main>
                 <?php include_once('includes/footer.php')?>
