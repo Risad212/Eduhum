@@ -1,3 +1,7 @@
+<?php 
+ include('class/function.php');
+ $obj = new adminClass();
+?>
 <?php include_once('includes/head.php')?>
     <body class="sb-nav-fixed">
        <?php include_once('includes/topnav.php')?>
@@ -10,6 +14,9 @@
                         if(isset($view)){
                             if($view == 'dashboard'){
                                 include('view/dash_view.php');
+                            }
+                            else if($view == 'addBlog'){
+                                include('view/add_blog_view.php');
                             }
                             else if($view == 'manege_blog'){
                                 include('view/manage_blog_view.php');
