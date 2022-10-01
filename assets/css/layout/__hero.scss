@@ -85,19 +85,6 @@
             transform: translate(-50%, -50%);
         }
     }
-
-    .hero-img {
-        position: relative;
-
-        img {
-            width: 40%;
-            position: absolute;
-            left: 30%;
-            border: 8px solid #fff;
-            border-radius: 5px;
-            top: 1rem;
-        }
-    }
 }
 
 
@@ -125,12 +112,6 @@
         .hero-video{
             padding: 0 0 5rem 0;
         }
-        .hero-img{
-            img{
-                width: 55%;
-                left: 22%;
-            }
-        }
     }
 }
 
@@ -148,9 +129,6 @@
 
 @media screen and (max-width: 992px) {
     .hero-wrapper{
-        .hero-img{
-            display: none;
-        }
         .hero-video{
             padding: 0 0 5rem 0;
         }

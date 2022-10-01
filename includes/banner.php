@@ -20,8 +20,5 @@
               </div>
             </div>
           </div>
-           <div class="hero-img">
-             <img src="assets/images/bannerImg.jpg" alt="">
-           </div>
         </div>
       </div>

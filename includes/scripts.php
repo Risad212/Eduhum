@@ -15,14 +15,23 @@
           items: 3
         },
         1100: {
-          items: 3
+          items: 2
         },
         1000: {
           items: 2
         },
         900: {
           items: 1
-        }  
+        },  
+        600: {
+          items: 1
+        }, 
+        500: {
+          items: 1
+        }, 
+        400: {
+          items: 1
+        }, 
       }
     })
 </script>

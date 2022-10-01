@@ -21,6 +21,9 @@
                             else if($view == 'manege_blog'){
                                 include('view/manage_blog_view.php');
                             }
+                            else if($view == 'add_review'){
+                                include('view/add_review_view.php');
+                            }
                          }
                       ?>
                     </div>
