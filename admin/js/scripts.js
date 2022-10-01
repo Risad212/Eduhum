@@ -20,3 +20,43 @@
         $("body").toggleClass("sb-sidenav-toggled");
     });
 })(jQuery);
+
+
+
+
+// chart in js code
+const ctx = document.getElementById('myChart').getContext("2d");
+
+const labels = [
+    '2012',
+    '2013',
+    '2014',
+    '2015',
+    '2016',
+    '2017',
+    '2018',
+    '2019',
+    '2020',
+];
+
+
+const data = {
+    labels,
+    datasets: [
+        {
+         label: "Minecrafty Sales",
+         data: [211, 321, 650, 340, 250, 354,789,14,248],
+       },
+   ]
+}
+
+const config = {
+    type: "line",
+    data: data,
+    options: {
+        responsive: true,
+    }
+}
+
+const myChart = new Chart(ctx, config)
+

@@ -41,6 +41,12 @@
                                 </div>
                             </div>
                         </div>
+                         <!-- chart -->
+                         <div class="chart">
+                            <canvas id="myChart">
+                                
+                            </canvas>
+                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
