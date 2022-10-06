@@ -25,7 +25,7 @@
 
 
 // chart in js code
-const ctx = document.getElementById('myChart').getContext(2)
+const ctx = document.getElementById('myChart')
 
 const labels = [
     '2012',
