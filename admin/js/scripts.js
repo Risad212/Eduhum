@@ -25,7 +25,7 @@
 
 
 // chart in js code
-const ctx = document.getElementById('myChart').getContext("2d");
+const ctx = document.getElementById('myChart').getContext(2)
 
 const labels = [
     '2012',
@@ -38,7 +38,6 @@ const labels = [
     '2019',
     '2020',
 ];
-
 
 const data = {
     labels,

@@ -26,7 +26,7 @@
                             <div class="collapse" id="collapseLayoutsx" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="add_review.php">Add Review</a>
-                                    <a class="nav-link" href="manege_blog.php">Manege Review</a>
+                                    <a class="nav-link" href="manage_review_view.php">Manege Review</a>
                                 </nav>
                             </div>
                         </div>

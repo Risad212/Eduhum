@@ -41,12 +41,13 @@
                                 </div>
                             </div>
                         </div>
-                         <!-- chart -->
+                         <!-- chart start -->
                          <div class="chart">
                             <canvas id="myChart">
                                 
                             </canvas>
                          </div>
+                         <!-- chart End -->
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
