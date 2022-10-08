@@ -33,20 +33,7 @@
     }
   
 
-  public function add_review($data){
-    $review_name = $data['review_name'];
-    $review_content = $data['review_content'];
-    $review_img = $_FILES['review_img']['name'];
-    $review_tmp_name = $_FILES['review_img']['tmp_name'];
-    $review_rating = $data['review_rating'];
-
-    $query = "INSERT INTO review_table(review_name,review_content,review_img,review_rating) VALUES('$review_title', '$review_content', '$review_img')";
-
-    if(mysqli_query($this->conn,$query)){
-       move_uploaded_file($review_tmp_name, '../client/'.$review_img);
-       return 'post added sucessfully';
-    }
- }
+  
 // end of the lin 
 }
 ?>

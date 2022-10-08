@@ -1,8 +1,3 @@
-<?php
-  if(isset($_POST['add_review'])){
-      $message = $obj->add_review($_POST);
- }
-?>
 <h2>Add Review</h2>
 <?php if(isset($message)){echo "<div class='alert alert-success' role='alert'>$message</div>";}?>
 <form action="" method="post" enctype="multipart/form-data">
