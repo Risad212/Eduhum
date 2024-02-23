@@ -1,0 +1,56 @@
+.countup {
+    padding: 80px 0;
+    background: #def1f4;
+}
+
+.countTop {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.countTitle {
+    color: #0e1133;
+    font-size: 30px;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.countSubtitle {
+    color: #53545b;
+    font-size: 16px;
+}
+
+.countSingle {
+    box-shadow: 0 2px 14px 5px rgba(20, 20, 20, 0.05);
+    padding: 25px 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+.icon svg{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.countNum {
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.countText{
+    color: #6d6e75;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.countSingle:hover{
+    margin-top: -10px;
+}

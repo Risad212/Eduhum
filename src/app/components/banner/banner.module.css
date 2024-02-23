@@ -1,0 +1,39 @@
+.banner {
+    background-image: url('../../media/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 45px;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.button {
+    padding: 15px 40px;
+    background: var(--primary-color);
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 25px;
+    text-transform: uppercase;
+}

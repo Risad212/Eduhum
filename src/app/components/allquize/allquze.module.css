@@ -1,0 +1,73 @@
+.quizebox{
+    padding: 50px;
+    border-radius: 15px;
+    margin: 80px 0;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.1); 
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.quizeInfo{
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+}
+.form{
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+.checkedlabel{
+    width: 100%;
+    background: #e4e8ee;
+    display: flex;
+    font-weight: 500;
+    padding: 18px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .3s ease-in;
+    text-transform: capitalize;
+}
+.checkedlabel:hover{
+    background: var(--primary-color);
+    cursor: pointer;
+    color: #fff;
+}
+
+.checkedlabel input{
+    margin-left: 15px;
+    outline: none;
+}
+.nextBtn{
+    background: var(--primary-color);
+    padding: 15px 30px;
+    border: none;
+    color: #fff;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all .4s;
+    display: block;
+   
+}
+.nextBtn:hover{
+    background: #000;
+}
+.textinput{
+    outline: none;
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    padding: 18px 30px;
+}

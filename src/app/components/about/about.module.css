@@ -1,0 +1,66 @@
+.about {
+   padding-top: 90px;
+   padding-bottom: 150px;
+}
+
+.aboutImg {
+    text-align: right;
+    position: relative;
+}
+
+.aboutImg img {
+    max-width: 370px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.imageWrapper{
+    border-radius: 6px;
+    position: absolute;
+    left: 30%;
+    width: 250px;
+    bottom: -100px;
+}
+
+.aboutContent {
+    padding: 25px 100px 25px 70px;
+}
+
+.aboutTitle {
+    font-size: 30px;
+    color: #0e1133;
+    text-transform: capitalize;
+    font-weight: 700;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+.para {
+    font-size: 16px;
+    color: #53545b;
+    margin-bottom: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.skillItem {
+    margin-top: 5px;
+}
+
+.checkIcon {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.button {
+    color: var(--dark_color);
+    background: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 25px;
+    display: inline-block;
+    color: #fff;
+}

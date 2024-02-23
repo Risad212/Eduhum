@@ -1,0 +1,159 @@
+/*================ Course Style ================*/
+.course{
+    background: #f3f4f8;
+    padding: 150px 0;
+}
+.courseTop{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title{
+    color: #0e1133;
+    font-size: 30px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.subtitle{
+    color: #53545b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.singleCourse{
+    border-radius: 6px;
+    box-shadow: 0 30px 40px 0 rgba(1,11,60,.06);
+    background: #fff;
+}
+.courseImageWrapper{
+    overflow: hidden;
+}
+.courseImageWrapper img{
+    border-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: all .4s;
+}
+.courseImageWrapper:hover img{
+    transform: scale(1.2);
+}
+.courseBody{
+    padding: 25px 30px;
+}
+.courseTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.courseTitle a{
+    text-decoration: none;
+    color: #53545b;
+}
+.courseTitle a:hover{
+    color: var(--primary-color);
+}
+.courseInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.instractor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.instImage{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 14px 0 rgba(1,11,60,.1);
+    height: 35px;
+    width: 35px;
+    margin-right: 15px;
+}
+.instName{
+    color: #53545b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0;
+    padding-top: 2px;
+}
+
+.lesson{
+    color: #53545b;
+    padding-right: 7px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.icon{
+    margin-right: 5px;
+}
+.priceButtom{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding-top: 10px ;
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f5;
+}
+
+.priceInfo{
+    display: flex;
+    align-items: center;
+}
+
+.sellPrice{
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 5px;
+    margin-bottom: 0px;
+    color: var(--primary-color);
+}
+
+.regularPrice{
+    color: #6d6e75;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+
+.buyButton{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    color: #0e1133;
+}
+
+@media screen and (max-width: 768px){
+    .course{
+        padding: 50px 0;
+    }
+    .courseTop{
+        margin-bottom: 40px;
+    }
+    .title{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .course{
+        padding: 30px 0;
+    }
+    .courseTop{
+        margin-bottom: 20px;
+    }
+    .title{
+        font-size: 25px;
+    }
+}
+/*================ Course Style ================*/
