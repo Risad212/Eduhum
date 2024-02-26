@@ -19,7 +19,7 @@ export default function Header() {
                             <Nav className={`ms-auto ${header.navItemList}`}>
                                 <Link href="/" className={header.navItem}>Home</Link>
                                 <Link href="#" className={header.navItem}>About Us</Link>
-                                <Link href="#" className={header.navItem}>Online Exam</Link>
+                                <Link href="/quize" className={header.navItem}>Online Exam</Link>
                                 <Link href="#" className={header.navItem}>Blog</Link>
                                 <Link href="#" className={header.navButton}>Contact</Link>
                             </Nav>

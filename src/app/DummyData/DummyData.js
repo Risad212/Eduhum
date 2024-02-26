@@ -31,6 +31,31 @@ export const quizeData = [
 
 
 
-    
-      
-  
+/*--===============================--*/   
+import inst1 from '../media/instractor1.jpg';   
+import inst2 from '../media/instractor2.jpeg';
+import inst3 from '../media/instractor3.jpg';
+import inst4 from '../media/instractor4.jpg';
+
+export const teacherData = [
+      {
+        name: 'Fred Hyman',
+        desination: 'english teacher',
+        img: inst1
+      },
+      {
+        name: 'Michail Handom',
+        desination: 'Teacher Economic',
+        img: inst2
+      },
+      {
+        name: 'Devon Koss',
+        desination: 'Teacher Math',
+        img: inst3
+      },
+      {
+        name: 'Michael Richardson',
+        desination: 'Teacher history',
+        img: inst4
+      },
+]
