@@ -2,6 +2,8 @@
 import style from './allquze.module.css';
 import { useState } from 'react';
 import { quizeData } from '../../DummyData/DummyData';
+import InputTextArea from '../inputTextArea/InputTextArea';
+import InputText from '../inputText/InputText';
 
 
 export default function AllQuize() {
@@ -38,31 +40,19 @@ export default function AllQuize() {
                 <form className={style.form} style={inputType == 'text' ? { display: 'block' } : { display: 'grid' }}>
                     {inputType !== 'text' && (
                         answerOptions.map((answer, index) => (
-                            <label key={index} className={`radiocontainer checkedlabel ${style.checkedlabel}`} id="label1">
-                                {answer}
-                                <input
-                                    onBlur={() => onBlurAnswer(answer, inputType, title)}
-                                    required
-                                    type={inputType}
-                                    name="quiz"
-                                    id={id}
-                                />
-                            </label>
+                            <>
+                              <InputText 
+                               onBlurAnswer={onBlurAnswer} 
+                               answer={answer}
+                               index={index}
+                               inputType={inputType}
+                               title={title}
+                               />
+                            </>
                         ))
                     )}
-
                     {inputType == 'text' && (
-                        <div style={{textAlign: 'center'}}>
-                            <textarea
-                                className={style.textinput}
-                                onBlur={(event) => onBlurAnswer(event.target.value, 'text', title)}
-                                name="quize"
-                                id="label1"
-                                maxlength="250"
-                                >
-                                
-                            </textarea>
-                        </div>
+                        <InputTextArea onBlurAnswer={onBlurAnswer} title={title}/>
                     )}
                 </form>
 

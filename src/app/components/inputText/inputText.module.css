@@ -1,0 +1,21 @@
+.checkedlabel{
+    width: 100%;
+    background: #e4e8ee;
+    display: flex;
+    font-weight: 500;
+    padding: 18px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .3s ease-in;
+    text-transform: capitalize;
+}
+.checkedlabel:hover{
+    background: var(--primary-color);
+    cursor: pointer;
+    color: #fff;
+}
+
+.checkedlabel input{
+    margin-left: 15px;
+    outline: none;
+}

@@ -25,27 +25,7 @@
 }
 
 
-.checkedlabel{
-    width: 100%;
-    background: #e4e8ee;
-    display: flex;
-    font-weight: 500;
-    padding: 18px 30px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: all .3s ease-in;
-    text-transform: capitalize;
-}
-.checkedlabel:hover{
-    background: var(--primary-color);
-    cursor: pointer;
-    color: #fff;
-}
 
-.checkedlabel input{
-    margin-left: 15px;
-    outline: none;
-}
 .nextBtn{
     background: var(--primary-color);
     padding: 15px 30px;
@@ -62,12 +42,4 @@
 }
 .nextBtn:hover{
     background: #000;
-}
-.textinput{
-    outline: none;
-    max-width: 550px;
-    width: 100%;
-    margin: auto;
-    height: 150px;
-    padding: 18px 30px;
 }
